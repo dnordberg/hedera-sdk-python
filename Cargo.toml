@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 hedera = "0.4.1"
-pyo3 = { version = "0.6.0-alpha.1", features = [ "extension-module" ] }
+pyo3 = { version = "0.6.0-alpha.1", features = [ "extension-module", "python27-sys", "extension-module-2-7" ] }
 chrono = "0.4.6"
 itertools = "0.8.0"
 derive_more = "0.13.0"
